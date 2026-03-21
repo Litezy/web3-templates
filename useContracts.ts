@@ -11,13 +11,13 @@ import { TODO_ABI } from "../ABI/todo";
 //     if (withSigner) {
 //       if (!signer) return null;
 //       return new Contract(
-//         getAddress(import.meta.env.VITE_TODO_CONTRACT_ADDRESS),
+//         getAddress(_CONTRACT_ADDRESS),
 //         TODO_ABI,
 //         signer
 //       );
 //     }
 //     return new Contract(
-//       getAddress(import.meta.env.VITE_TODO_CONTRACT_ADDRESS),
+//       getAddress(_CONTRACT_ADDRESS),
 //       TODO_ABI,
 //       readOnlyProvider
 //     );
@@ -26,7 +26,7 @@ import { TODO_ABI } from "../ABI/todo";
 
 export const useTodoContract = (withSigner = false) => {
   const { readOnlyProvider, signer } = useRunners()
-  const CA = import.meta.env.VITE_TODO_CONTRACT_ADDRESS
+  const CA = _CONTRACT_ADDRESS
 
   return useMemo(() => {
     return new Contract(
