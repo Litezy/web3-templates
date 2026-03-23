@@ -1,0 +1,25 @@
+https://mojs.github.io/tutorials/getting-started.html#setup-mo-js-in-your-project 
+https://maxwellito.github.io/vivus/ 
+https://popmotion.io/ 
+https://animejs.com/ 
+https://gsap.com/ 
+https://refine.dev/ https://www.svgator.com/ 
+https://github.com/vasturiano/react-globe.gl 
+https://lottiefiles.com/ 
+https://vincentgarreau.com/particles.js/#default 
+https://react-awesome-reveal.morello.dev/ 
+https://react-move-docs.netlify.app/demos/animate 
+https://github.com/chenglou/react-motion 
+https://www.remotion.dev/ 
+https://www.react-spring.dev/ 
+https://www.framer.com/motion/ 
+https://react-icons.github.io/react-icons/ 
+https://mhnpd.github.io/react-loader-spinner/ 
+https://awesomeshapes.netlify.app/ 
+https://react-slick.neostack.com/ 
+https://chakra-ui.com/ 
+https://tailwindcss.com/ 
+https://headlessui.com/ 
+https://ui.shadcn.com/ 
+https://ui.aceternity.com/ 
+https://app.getgrass.io/dashboard
