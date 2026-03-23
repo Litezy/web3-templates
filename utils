@@ -1,0 +1,7 @@
+//initialize a state for rawAMount and amount, raw holds real number while amount displays user friendly figures
+const handleAmount = (value: string) => {
+        const raw = value.replace(/[^0-9]/g, '');
+        setRawAmount(raw);
+        const formatted = raw.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        setAmount(formatted);
+    }
